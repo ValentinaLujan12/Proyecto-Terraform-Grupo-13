@@ -1,0 +1,16 @@
+# Estado de Terraform — contiene IDs internos de GCP, no subir al repo
+*.tfstate
+*.tfstate.*
+
+# Carpeta de plugins y caché de Terraform
+.terraform/
+
+# Lock file (opcional, se puede subir pero no es necesario)
+.terraform.lock.hcl
+
+# Archivos de credenciales
+*.json
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
